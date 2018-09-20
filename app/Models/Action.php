@@ -8,5 +8,5 @@ class Action extends Model
 {
     protected $fillable = ['nama'];
 
-    protected $table = 'Action';
+    protected $table = 'action';
 }
