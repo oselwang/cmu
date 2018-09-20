@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.ico" type="image/ico"/>
 
-    <title>Gentelella Alela! | </title>
+    <title>Yamaha | CMU</title>
 
     <!-- Bootstrap -->
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
@@ -117,38 +117,6 @@
 <script src="{{asset('js/jquery.min.js')}}"></script>
 <!-- Bootstrap -->
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
-<!-- FastClick -->
-<script src="{{asset('js/plugin/fastclick.js')}}"></script>
-<!-- NProgress -->
-<script src="{{asset('js/plugin/nprogress.js')}}"></script>
-<!-- Chart.js -->
-<script src="{{asset('js/plugin/chart.js')}}"></script>
-<!-- gauge.js -->
-<script src="{{asset('js/plugin/gauge.js')}}"></script>
-<!-- bootstrap-progressbar -->
-<script src="{{asset('js/plugin/bootstrap-progressbar.js')}}"></script>
-<!-- iCheck -->
-<script src="{{asset('js/plugin/icheck.js')}}"></script>
-<!-- Skycons -->
-<script src="{{asset('js/plugin/skycons.js')}}"></script>
-<!-- Flot -->
-<script src="{{asset('js/plugin/jquery.flot.js')}}"></script>
-<script src="{{asset('js/plugin/jquery.flot.pie.js')}}"></script>
-<script src="{{asset('js/plugin/jquery.flot.time.js')}}"></script>
-<script src="{{asset('js/plugin/jquery.flot.stack.js')}}"></script>
-<script src="{{asset('js/plugin/jquery.flot.resize.js')}}"></script>
-<!-- Flot plugins -->
-<script src="{{asset('js/plugin/jquery.flot.orderBars.js')}}"></script>
-<script src="{{asset('js/plugin/jquery.flot.spline.min.js')}}"></script>
-<script src="{{asset('js/plugin/curvedLines.js')}}"></script>
-<!-- DateJS -->
-<script src="{{asset('js/plugin/date.js')}}"></script>
-<!-- JQVMap -->
-<script src="{{asset('js/plugin/jquery.vmap.js')}}"></script>
-<script src="{{asset('js/plugin/jquery.vmap.world.js')}}"></script>
-<script src="{{asset('js/plugin/jquery.vmap.sampledata.js')}}"></script>
-<!-- bootstrap-daterangepicker -->
-<script src="{{asset('js/plugin/moment.min.js')}}"></script>
 <script src="{{asset('js/plugin/daterangepicker.js')}}"></script>
 
 <!-- Custom Theme Scripts -->
