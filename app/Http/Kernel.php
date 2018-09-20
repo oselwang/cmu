@@ -2,6 +2,9 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\Action\AbortIfNoCreateAction;
+use App\Http\Middleware\Action\AbortIfNoDeleteAction;
+use App\Http\Middleware\Action\AbortIfNoUpdateAction;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -26,8 +29,11 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \App\Http\Middleware\Authenticate::class,
-        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'auth'          => \App\Http\Middleware\Authenticate::class,
+        'auth.basic'    => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        'guest'         => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'action.update'   => AbortIfNoUpdateAction::class,
+        'action.create' => AbortIfNoCreateAction::class,
+        'action.delete' => AbortIfNoDeleteAction::class
     ];
 }

@@ -1,0 +1,1 @@
+var defaultUrl = 'http://cmu.test/';
