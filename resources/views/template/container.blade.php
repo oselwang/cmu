@@ -154,6 +154,7 @@
 <!-- Custom Theme Scripts -->
 <script src="{{asset('js/custom.js')}}"></script>
 @if(env('APP_ENV') != 'local')
+    <script src="{{asset('js/global.min.js')}}"></script>
 @else
     <script src="{{asset('js/global.local.min.js')}}"></script>
 @endif

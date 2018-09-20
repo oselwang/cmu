@@ -17,6 +17,7 @@ elixir(function (mix) {
 
     mix.scripts('home.js', 'public/js/home.min.js');
     mix.scripts('global.local.js', 'public/js/global.local.min.js');
+    mix.scripts('global.js', 'public/js/global.min.js');
     mix.scripts('bengkel/jenis-buku.js', 'public/js/bengkel/jenis-buku.min.js');
     mix.scripts('bengkel/customer-bengkel.js', 'public/js/bengkel/customer-bengkel.min.js');
     mix.scripts('bengkel/tipe-jasa.js', 'public/js/bengkel/tipe-jasa.min.js');
