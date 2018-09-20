@@ -1,6 +1,10 @@
 .env
-vendor
-storage
+/vendor
+.idea/
+_ide_helper.php
 composer.lock
-node_modules
-.idea/workspace.xml
+/storage
+.Ds_Store
+/node_modules
+/bower_components
+npm-debug.log
