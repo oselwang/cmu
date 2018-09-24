@@ -44,5 +44,5 @@
 
 @stop
 @section('script')
-    <script src="{{asset('js/home.min.js')}}"></script>
+    <script src="{{asset('js/home.min.js')}}?v=0.1"></script>
 @stop
