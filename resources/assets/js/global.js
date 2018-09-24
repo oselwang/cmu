@@ -1,1 +1,1 @@
-var defaultUrl = 'http://ciptamitrausaha.com/';
+var defaultUrl = 'https://ciptamitrausaha.com/';
